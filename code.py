@@ -8,7 +8,7 @@ image = cv2.imread(image_path)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Apply Canny edge detection
-edges = cv2.Canny(gray, 100, 200)  # Adjust the threshold values as needed
+edges = cv2.Canny(gray, 80, 100)  # Adjust the threshold values as needed
 
 # Display the original image and edge-detected image
 cv2.imshow('Original Image', image)
