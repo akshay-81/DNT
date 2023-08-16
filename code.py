@@ -1,5 +1,6 @@
 import cv2
 
+#get image from path
 image_path = r"C:\Users\aksha\Downloads\thug duck.jpeg"
 image = cv2.imread(image_path)
 
